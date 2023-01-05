@@ -25,11 +25,16 @@
     background-position: bottom right, left;
 }
 
+.header-container {
+    max-width: 1330px;
+    margin: 0 auto;
+}
+
 /* header and navigation styles */
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 0;
 }
 
 nav ul {
@@ -49,7 +54,6 @@ nav li {
 
 /* banner styles */
 .banner {
-    margin: 0 200px;
     display: flex;
     align-items: center;
 }
@@ -79,6 +83,7 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 section {
     margin-top: 130px;
 }
@@ -122,8 +127,14 @@ section {
 }
 
 /* what i do section styles */
-.what-i-do {
-    padding: 130px 150px;
+
+
+.what-section-description {
+    font-size: 18px;
+    color: #757575;
+    margin: 30px auto;
+    max-width: 900px;
+    text-align: center;
 }
 
 .skill {
@@ -152,26 +163,92 @@ section {
 }
 
 /* resume styles */
-.resume-content{
-    display: flex;
+.resume {
+    max-width: 1140px;
 }
+.resume-content {
+    display: flex;
+    gap: 70px;
+    margin-top: 80px;
+}
+
 .resume-title {
     font-weight: 700;
-font-size: 30px;
-color: #474747;
+    font-size: 30px;
+    color: #474747;
 }
+
 .resume-item .title {
     font-weight: 700;
-font-size: 25px;
-color: #474747;
+    font-size: 25px;
+    color: #474747;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .resume-item .sub-title {
     font-weight: 600;
     font-size: 20px;
     color: #757575;
+    
 }
 
 .resume-item .description {
     color: #757575;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.borderline {
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 30px;
+
+}
+
+.resume-download {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 110px;
+}
+
+/* let's connect css  */
+
+footer {
+    background: #FFF8F3;
+}
+.connect {
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 120px;
+    padding: 130px 0;
+}
+.footer-left {
+    width: 100%; 
+}
+
+.footer-right {
+    width: 100%;    
+}
+
+.connect .section-title {
+    text-align: left;
+    margin-bottom: 28px;
+}
+
+.connect-description {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+    border: 0;
+    padding: 25px;
 }
